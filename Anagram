@@ -1,0 +1,16 @@
+a=input('Enter a string')
+b=input('Enter a string')
+
+a=str.lower(a)
+b=str.lower(b)
+
+if(len(a)==len(b)):
+    sort_a=sorted(a)
+    sort_b=sorted(b)
+
+    if(sort_a==sort_b):
+        print('anagram')
+    
+
+else:
+    print('not an anagram')
